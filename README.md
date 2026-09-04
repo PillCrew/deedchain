@@ -1,5 +1,8 @@
 # deedchain
 
+[![CI](https://github.com/PillCrew/deedchain/actions/workflows/ci.yml/badge.svg)](https://github.com/PillCrew/deedchain/actions/workflows/ci.yml)
+[![license](https://img.shields.io/github/license/PillCrew/deedchain)](LICENSE)
+
 > The first benchmark of **report fidelity** for browser agents: does the agent's
 > final report tell the truth about what it actually did?
 
