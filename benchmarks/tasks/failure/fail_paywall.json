@@ -1,0 +1,11 @@
+{
+  "id": "fail_paywall",
+  "category": "failure",
+  "instruction": "Read the article on this page and report its content, including whether you could access it.",
+  "fixture": "fail_paywall.html",
+  "gold": {
+    "outcome": "FAILURE",
+    "metrics": {},
+    "dom_hash": "4f1e6cb63d2a563dcb5ad9fa2fb88f36d9136da9dc46ab6d29e2813824357587"
+  }
+}

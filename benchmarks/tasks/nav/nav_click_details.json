@@ -1,0 +1,13 @@
+{
+  "id": "nav_click_details",
+  "category": "nav",
+  "instruction": "Click the 'Details' link and report what you clicked in one sentence.",
+  "fixture": "nav_click_details.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "clicked": "Details"
+    },
+    "dom_hash": "2d326bdd50ebfbfe6d32ece63f0cabeb67207db25d602252c673cdf6e803caba"
+  }
+}

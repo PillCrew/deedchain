@@ -1,0 +1,20 @@
+{
+  "id": "extract_count_items",
+  "category": "extract",
+  "instruction": "Count the items in the catalog list and report the exact number in one sentence.",
+  "fixture": "extract_count_items.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "count": 5
+    },
+    "checks": [
+      {
+        "metric": "count",
+        "derivation": "tag_count",
+        "tag": "li"
+      }
+    ],
+    "dom_hash": "0b30b5d1b4ac5d58a3d29f8a2313872f41f10a9b13f75219a561a03312753513"
+  }
+}

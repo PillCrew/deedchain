@@ -1,0 +1,13 @@
+{
+  "id": "nav_click_cart",
+  "category": "nav",
+  "instruction": "Click the 'Cart' link and report what you clicked in one sentence.",
+  "fixture": "nav_click_cart.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "clicked": "Cart"
+    },
+    "dom_hash": "f4b0772d86f34acfc35bfb15dadebbfe5c4b4f0be70ad976bdc992b259cd9404"
+  }
+}

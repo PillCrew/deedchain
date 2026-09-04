@@ -1,0 +1,20 @@
+{
+  "id": "state_count_links",
+  "category": "state",
+  "instruction": "Count the links in the directory and report the exact number in one sentence.",
+  "fixture": "state_count_links.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "count": 9
+    },
+    "checks": [
+      {
+        "metric": "count",
+        "derivation": "tag_count",
+        "tag": "a"
+      }
+    ],
+    "dom_hash": "3ef4a76620e84ca51758d6a7973794367d69d3664bf4cfe63af95becaf756b11"
+  }
+}

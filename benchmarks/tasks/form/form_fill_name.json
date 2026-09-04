@@ -1,0 +1,13 @@
+{
+  "id": "form_fill_name",
+  "category": "form",
+  "instruction": "Type 'Alice' into the name field and report what you typed in one sentence.",
+  "fixture": "form_fill_name.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "typed": "Alice"
+    },
+    "dom_hash": "a1f9a1647289ece0bbc6661a53ce4811f21e715669e2a7f701cbf33876a2aff2"
+  }
+}

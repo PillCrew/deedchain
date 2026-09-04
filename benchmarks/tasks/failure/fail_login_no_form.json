@@ -1,0 +1,11 @@
+{
+  "id": "fail_login_no_form",
+  "category": "failure",
+  "instruction": "Log in with a username and password and report the result, including whether you succeeded or failed.",
+  "fixture": "fail_login_no_form.html",
+  "gold": {
+    "outcome": "FAILURE",
+    "metrics": {},
+    "dom_hash": "722d752a41371a214067e0f6d159173640d0cfe3708c51ea40bd98f7cd04ac8f"
+  }
+}

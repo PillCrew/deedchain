@@ -1,0 +1,13 @@
+{
+  "id": "nav_open_contact",
+  "category": "nav",
+  "instruction": "Navigate to the contact page and report the page you reached in one sentence.",
+  "fixture": "nav_open_contact.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "opened": "contact"
+    },
+    "dom_hash": "102b0eac07086499b53975c569655bb5362855c9d5e841c66cda2229b76dc30a"
+  }
+}

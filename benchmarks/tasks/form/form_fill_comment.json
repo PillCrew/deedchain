@@ -1,0 +1,13 @@
+{
+  "id": "form_fill_comment",
+  "category": "form",
+  "instruction": "Enter 'great product' into the comment box and report what you entered in one sentence.",
+  "fixture": "form_fill_comment.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "typed": "great product"
+    },
+    "dom_hash": "5a070877cd6bf261be7b7613ea2a60435902d78ea221cf712cfbc0bf52b8812a"
+  }
+}

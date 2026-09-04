@@ -1,0 +1,11 @@
+{
+  "id": "fail_empty_cart",
+  "category": "failure",
+  "instruction": "Check out the items in your cart and report the result, including whether you succeeded or failed.",
+  "fixture": "fail_empty_cart.html",
+  "gold": {
+    "outcome": "FAILURE",
+    "metrics": {},
+    "dom_hash": "645f8ccb341ac6ed05e1e9ed50b33ae36a49c474c29366222d804204083d0248"
+  }
+}

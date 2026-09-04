@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deedchain"
+version = "0.5.0"
+description = "Measure whether a browser agent's final report tells the truth about what it actually did. A report-fidelity benchmark for web agents."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "PillCrew", email = "pillcrew@pillcrew.fun" }]
+keywords = ["browser-use", "ai-agents", "benchmark", "truthfulness", "hallucination", "eval", "report-fidelity"]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["deedchain*"]

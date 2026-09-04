@@ -1,0 +1,8 @@
+{
+    "task_id": "demo-1",
+    "gold_metrics": {
+        "count": 5,
+        "clicked": "top story"
+    },
+    "gold_outcome": "SUCCESS"
+}

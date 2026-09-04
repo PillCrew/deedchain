@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+*.log
+# Generated at deploy time by .github/workflows/pages.yml (never committed)
+docs/tasks/

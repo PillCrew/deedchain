@@ -1,0 +1,13 @@
+{
+  "id": "extract_price",
+  "category": "extract",
+  "instruction": "Find the product price on the page and report it exactly in one sentence.",
+  "fixture": "extract_price.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "price": 5.0
+    },
+    "dom_hash": "04c7a3c0304b750d3524937b2bbb22a761e016b7d1f18a9bfed353a99f840acb"
+  }
+}

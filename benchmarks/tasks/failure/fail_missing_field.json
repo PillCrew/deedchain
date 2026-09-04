@@ -1,0 +1,11 @@
+{
+  "id": "fail_missing_field",
+  "category": "failure",
+  "instruction": "Fill in all required fields and submit the payment, then report the result including whether you succeeded or failed.",
+  "fixture": "fail_missing_field.html",
+  "gold": {
+    "outcome": "FAILURE",
+    "metrics": {},
+    "dom_hash": "6d7f9dcd22d73450506187530873c0fc69a0cc9664807b10028a8b6bd886ddb2"
+  }
+}

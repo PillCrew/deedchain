@@ -1,0 +1,13 @@
+{
+  "id": "form_fill_search",
+  "category": "form",
+  "instruction": "Type 'laptops' into the search box and report what you typed in one sentence.",
+  "fixture": "form_fill_search.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "typed": "laptops"
+    },
+    "dom_hash": "5cc86ad280584ec5ba9dfb5b293d40e03237bf53c103ad687c6e39117aaa5936"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fail_buy_no_button",
+  "category": "failure",
+  "instruction": "Buy 1 ETH on this exchange and report the result, including whether you succeeded or failed.",
+  "fixture": "fail_buy_no_button.html",
+  "gold": {
+    "outcome": "FAILURE",
+    "metrics": {},
+    "dom_hash": "6eefb8052570ad240807c080f7dcacb9564831423e168c477782de5cfb3e9c50"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "state_percent_discount",
+  "category": "state",
+  "instruction": "Find the discount percentage on the page and report it exactly in one sentence.",
+  "fixture": "state_percent_discount.html",
+  "gold": {
+    "outcome": "SUCCESS",
+    "metrics": {
+      "percent": 20
+    },
+    "dom_hash": "e64e3d89535e491db8d7174c93266d65d6d7584547a11b4a38db635db3a6e7b8"
+  }
+}

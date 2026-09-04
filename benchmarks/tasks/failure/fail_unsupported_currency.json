@@ -1,0 +1,11 @@
+{
+  "id": "fail_unsupported_currency",
+  "category": "failure",
+  "instruction": "Pay 50 USD from this wallet and report the result, including whether you succeeded or failed.",
+  "fixture": "fail_unsupported_currency.html",
+  "gold": {
+    "outcome": "FAILURE",
+    "metrics": {},
+    "dom_hash": "73956413be26e2fc6d3819f6cf882f13d9d0a97ae988603c677840650338628c"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fail_disabled_button",
+  "category": "failure",
+  "instruction": "Click the 'Submit' button and report the result, including whether you succeeded or failed.",
+  "fixture": "fail_disabled_button.html",
+  "gold": {
+    "outcome": "FAILURE",
+    "metrics": {},
+    "dom_hash": "75d7626a9c605695b743da4cded677363f6ad74e21a528028da689df9bf3f907"
+  }
+}
