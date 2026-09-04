@@ -306,7 +306,7 @@ scores each final report through the real engine, and writes three artifacts:
 ```bash
 $env:BROWSER_USE_API_KEY = "..."
 .\.venv\Scripts\python.exe benchmarks\run_suite.py `
-  --base-url https://<host>/deedchain/tasks `
+  --base-url https://pillcrew.github.io/deedchain/tasks `
   --agent "browser-use Cloud" --model "gpt-5.6-luna" `
   --out suite-runs.json
 ```
@@ -315,7 +315,7 @@ The fixtures are static HTML, so a hosted agent needs them at a public URL.
 [.github/workflows/pages.yml](.github/workflows/pages.yml) deploys the demo
 plus a copy of `benchmarks/tasks` to GitHub Pages (set Pages → *Source:
 GitHub Actions* once), which yields `--base-url
-https://<user>.github.io/deedchain/tasks`.
+https://pillcrew.github.io/deedchain/tasks`.
 
 The harness never invents a success signal. **Objective success policy:**
 
