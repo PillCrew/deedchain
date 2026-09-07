@@ -107,6 +107,8 @@ def run_one(
         poll_seconds=poll_seconds,
         timeout=timeout,
     )
+    if run.get("status") == "cancelled":
+        raise CloudAPIError("run {} was cancelled".format(run_id))
     if run.get("status") not in TERMINAL:
         raise CloudAPIError(
             "run {} never reached a terminal state (last status: {!r})".format(
