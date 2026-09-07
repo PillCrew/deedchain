@@ -32,7 +32,7 @@ from ..runner import RunResult, run_pipeline
 API = "https://api.browser-use.com/api/v4/runs"
 ENV_KEY = "BROWSER_USE_API_KEY"
 
-# Terminal states the Cloud API reports.
+# Terminal outcomes eligible for scoring. Cancellation ends polling but is not scored.
 TERMINAL = ("completed", "failed")
 
 
@@ -102,7 +102,7 @@ def wait_for_run(
     run: Dict[str, Any] = {}
     while time.time() < deadline:
         run = get_run(run_id, k, base_url=base_url)
-        if run.get("status") in TERMINAL:
+        if run.get("status") in TERMINAL or run.get("status") == "cancelled":
             return run
         time.sleep(poll_seconds)
     return run
